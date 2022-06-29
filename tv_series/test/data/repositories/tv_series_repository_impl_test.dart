@@ -6,7 +6,7 @@ import 'package:core/core.dart';
 import 'dart:io';
 
 import '../../../../core/test/helpers/test_helper.mocks.dart';
-import '../../../../test/data_dummy/dummy_object.dart';
+import '../../../../test/dummy_data/dummy_object.dart';
 
 void main() {
   late TVSeriesRepositoryImpl repository;

@@ -7,7 +7,7 @@ import 'package:movie/movie.dart';
 import 'package:core/core.dart';
 
 import 'movie_detail_bloc_test.mocks.dart';
-import '../../../../test/data_dummy/dummy_object.dart';
+import '../../../../test/dummy_data/dummy_object.dart';
 
 @GenerateMocks([GetMovieDetail])
 void main() {

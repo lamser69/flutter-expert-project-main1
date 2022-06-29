@@ -5,7 +5,7 @@ import 'package:tv_series/tv_series.dart';
 import 'package:mockito/mockito.dart';
 import 'package:dartz/dartz.dart';
 import 'package:core/core.dart';
-import '../../../../test/data_dummy/dummy_object.dart';
+import '../../../../test/dummy_data/dummy_object.dart';
 import 'tv_series_popular_bloc_test.mocks.dart';
 
 @GenerateMocks([GetPopularTVSeries])

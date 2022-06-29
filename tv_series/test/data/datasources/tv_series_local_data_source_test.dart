@@ -3,7 +3,7 @@ import 'package:tv_series/tv_series.dart';
 import 'package:mockito/mockito.dart';
 import 'package:core/core.dart';
 
-import '../../../../test/data_dummy/dummy_object.dart';
+import '../../../../test/dummy_data/dummy_object.dart';
 import '../../../../core/test/helpers/test_helper.mocks.dart';
 
 void main() {

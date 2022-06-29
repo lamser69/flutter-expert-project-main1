@@ -5,7 +5,7 @@ import 'package:mockito/annotations.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:flutter/material.dart';
 import 'package:movie/movie.dart';
-import '../../../../test/data_dummy/dummy_object.dart';
+import '../../../../test/dummy_data/dummy_object.dart';
 
 class MockMoviePopularBloc
     extends MockBloc<MoviePopularEvent, MoviePopularState>

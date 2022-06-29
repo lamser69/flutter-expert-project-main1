@@ -5,7 +5,7 @@ import 'package:bloc_test/bloc_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:flutter/material.dart';
 import 'package:movie/movie.dart';
-import '../../../../test/data_dummy/dummy_object.dart';
+import '../../../../test/dummy_data/dummy_object.dart';
 
 class MockMovieTopRatedBloc
     extends MockBloc<MovieTopRatedEvent, MovieTopRatedState>
