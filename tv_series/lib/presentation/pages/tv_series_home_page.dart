@@ -36,7 +36,7 @@ class _TVSeriesHomePageState extends State<TVSeriesHomePage> {
         actions: [
           IconButton(
             onPressed: () {
-              // FirebaseCrashlytics.instance.crash();
+              
               Navigator.pushNamed(context, searchTVSeriesRoute);
             },
             icon: const Icon(Icons.search),
