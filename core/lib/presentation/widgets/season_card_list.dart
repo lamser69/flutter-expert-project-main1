@@ -37,7 +37,7 @@ class SeasonCard extends StatelessWidget {
             children: [
               Text(
                 item.name,
-                style: kSubtitle,
+                style: kSubtitle, 
               ),
               Text('${item.episodeCount} episodes'),
               const SizedBox(

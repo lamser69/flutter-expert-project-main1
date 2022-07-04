@@ -206,8 +206,8 @@ class DetailContent extends StatelessWidget {
                                 Column(
                                   children: [
                                     Text(
-                                      "Total ${_season(detail.numberOfSeasons)}",
-                                      style: kHeading6,
+                                      "Total ${_season(detail.numberOfSeasons)}", 
+                                      style: kHeading5,
                                     ),
                                     Text(
                                       (detail.numberOfSeasons).toString(),
@@ -216,7 +216,7 @@ class DetailContent extends StatelessWidget {
                                   ],
                                 ),
                               ],
-                            ),
+                            ), /// INI EXPENT
                             const SizedBox(height: 16),
                             ListView.builder(
                               itemBuilder: (context, index) {
